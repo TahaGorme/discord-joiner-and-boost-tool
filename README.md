@@ -37,6 +37,7 @@ Before running the script, ensure you have Node.js installed on your system. You
 
 
 ## Installation
+for one click installation: run the installer.bat
 
 Download [nodejs](https://nodejs.org/)
 
