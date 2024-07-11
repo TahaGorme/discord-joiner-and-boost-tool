@@ -13,7 +13,6 @@ let captcha_retry_limit = config.captcha_retry_limit;
 let join_delay_min = config.join_delay_min;
 let join_delay_max = config.join_delay_max;
 
-
 //Error Handling
 process.on('unhandledRejection', (error) => {
     console.error(chalk.bold.red('Unhandled Rejection:'));
