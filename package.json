@@ -1,0 +1,46 @@
+{
+  "name": "discord-joiner-and-boost-tool",
+  "version": "1.0.0",
+  "description": "This project is designed to automate the process of joining Discord servers and boosting them using multiple tokens. It utilizes the 'discord.js-selfbot-v13' library for Discord interactions, '2captcha'for solving captchas, and proxies for managing multiple accounts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TahaGorme/discord-joiner-and-boost-tool.git"
+  },
+  "keywords": [
+    "server",
+    "script",
+    "discord",
+    "discord-bot",
+    "selfbot",
+    "token",
+    "discord-selfbot",
+    "2captcha",
+    "discord-token",
+    "token-generator",
+    "discord-token-grabber",
+    "token-grabber",
+    "discordtokengrabber",
+    "discord-token-generator",
+    "discord-joiner",
+    "discord-account-creator",
+    "discord-token-joiner",
+    "discord-boost-tool",
+    "discord-boost-bot",
+    "server-joiner"
+  ],
+  "author": "tahagorme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TahaGorme/discord-joiner-and-boost-tool/issues"
+  },
+  "homepage": "https://github.com/TahaGorme/discord-joiner-and-boost-tool#readme",
+  "dependencies": {
+    "2captcha": "^3.0.5-2",
+    "discord.js-selfbot-v13": "^3.3.0",
+    "proxy-agent": "^6.4.0"
+  }
+}
