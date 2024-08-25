@@ -1,3 +1,7 @@
+# Patched
+This script has been patched. to buy a working joiner (proxyless), dm me on discord @uutu or on telegram @tahagorme
+
+
 # Discord Joiner and Boost Tool
 
 This project is designed to automate the process of joining Discord servers and boosting them using multiple tokens. It utilizes the `discord.js-selfbot-v13` library for Discord interactions, `2captcha` for solving captchas, and proxies for managing multiple accounts.
