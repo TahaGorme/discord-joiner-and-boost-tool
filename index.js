@@ -117,7 +117,7 @@ async function join(token, isLast) {
     client.login(token).catch((error) => {
         if (error.toString()?.includes("INVALID") && error.toString()?.includes("TOKEN")) {
             console.log(chalk.red(`Invalid Token: ${chalk.blueBright(chalk.underline(token))}`));
-            //removing invalid token from tokens.txt
+            
             fs.writeFileSync('tokens.txt', fs.readFileSync('tokens.txt', 'utf8').replace(token + '\n', ''));
             console.log(`Removed invalid token: ${chalk.blueBright(chalk.underline(token))} from tokens.txt!`);
 
