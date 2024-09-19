@@ -1,3 +1,6 @@
+// this has been patched 
+// to purchase a private working joiner and boost tool, contact me on discord @uutu or telegram @tahagorme
+
 //Importing Modules
 const { Client } = require('discord.js-selfbot-v13');
 const fs = require('fs');
